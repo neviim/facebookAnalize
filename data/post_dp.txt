@@ -1,0 +1,107 @@
+id_publicacao                                                                               True
+link_permanente                                                                             True
+status_messagem                                                                             True
+status_type                                                                                 True
+Países                                                                                      True
+Idiomas                                                                                     True
+status_publicado                                                                            True
+Direcionamento do público                                                                   True
+total_publicacao                                                                            True
+Vitalício: alcance orgânico da publicação                                                   True
+Vitalício: alcance pago da publicação                                                       True
+Vitalício: total de impressões da publicação                                                True
+Vitalício: impressões orgânicas da publicação                                               True
+Vitalício: impressões pagas da publicação                                                   True
+Vitalício: usuários envolvidos                                                              True
+num_pub_corres                                                                              True
+Vitalício: consumos de direcionamento do público com correspondência na publicação          True
+Vitalício: comentários negativos dos usuários                                               True
+Vitalício: feedback negativo                                                                True
+Vitalício: impressões da publicação por pessoas que curtiram sua Página                     True
+Vitalício: alcance da publicação por pessoas que curtiram sua Página                        True
+Vitalício: impressões pagas da publicação por pessoas que curtiram sua Página               True
+Vitalício: alcance pago de uma publicação por pessoas que curtiram sua Página               True
+Vitalício: pessoas que curtiram sua Página e se envolveram com a sua publicação             True
+Vitalício: visualizações até 95% orgânicas                                                  True
+Vitalício: visualizações até 95% orgânicas.1                                                True
+Vitalício: visualizações até 95% pagas                                                      True
+Vitalício: visualizações até 95% pagas.1                                                    True
+Vitalício: visualizações do vídeo orgânicas                                                 True
+Vitalício: visualizações do vídeo orgânicas.1                                               True
+Vitalício: visualizações do vídeo pagas                                                     True
+Vitalício: visualizações do vídeo pagas.1                                                   True
+Vitalício: tempo médio de visualização do vídeo                                             True
+Duração de vídeo vitalícia                                                                  True
+num_likes                                                                                   True
+num_shares                                                                                  True
+num_comments                                                                                True
+Vitalício: histórias da publicação por tipo de ação - like                                  True
+Vitalício: histórias da publicação por tipo de ação - share                                 True
+Vitalício: histórias da publicação por tipo de ação - comment                               True
+num_other_cliks                                                                             True
+num_photo_view                                                                              True
+num_link_clicks                                                                             True
+num_video_play                                                                              True
+Consumos de direcionamento para público correspondente vitalício por tipo - other clicks    True
+num_photo_view.1                                                                            True
+Consumos de direcionamento para público correspondente vitalício por tipo - link clicks     True
+Consumos de direcionamento para público correspondente vitalício por tipo - video play      True
+Vitalício: comentários negativos de usuários por tipo - hide_all_clicks                     True
+Vitalício: comentários negativos de usuários por tipo - hide_clicks                         True
+Vitalício: feedback negativo por tipo - hide_all_clicks                                     True
+Vitalício: feedback negativo por tipo - hide_clicks                                         True
+
+# Um De/Para
+
+status_id  			=> id_publicacao
+link_name 			=> link_permanente
+status_messagem  	=> status_messagem
+status_type			=> Tipo
+					=> Países
+					=> Idiomas
+status_publicado    => status_publicado
+Direcionamento do público
+total_publicacao    => total_publicacao
+Vitalício: alcance orgânico da publicação
+Vitalício: alcance pago da publicação
+Vitalício: total de impressões da publicação
+Vitalício: impressões orgânicas da publicação
+Vitalício: impressões pagas da publicação
+Vitalício: usuários envolvidos
+num_pub_corres  	=> Vitalício: consumidores de direcionamento do público com correspondência na publicação
+Vitalício: consumos de direcionamento do público com correspondência na publicação
+Vitalício: comentários negativos dos usuários
+Vitalício: feedback negativo
+Vitalício: impressões da publicação por pessoas que curtiram sua Página
+Vitalício: alcance da publicação por pessoas que curtiram sua Página
+Vitalício: impressões pagas da publicação por pessoas que curtiram sua Página
+Vitalício: alcance pago de uma publicação por pessoas que curtiram sua Página
+Vitalício: pessoas que curtiram sua Página e se envolveram com a sua publicação
+Vitalício: visualizações até 95% orgânicas
+Vitalício: visualizações até 95% orgânicas
+Vitalício: visualizações até 95% pagas
+Vitalício: visualizações até 95% pagas
+Vitalício: visualizações do vídeo orgânicas
+Vitalício: visualizações do vídeo orgânicas
+Vitalício: visualizações do vídeo pagas
+Vitalício: visualizações do vídeo pagas
+Vitalício: tempo médio de visualização do vídeo
+Duração de vídeo vitalícia
+num_likes        	=> Vitalício: Falando sobre isso (publicação) por tipo de ação - like
+num_shares          => Vitalício: Falando sobre isso (publicação) por tipo de ação - share
+num_comments        => Vitalício: Falando sobre isso (publicação) por tipo de ação - comment
+Vitalício: histórias da publicação por tipo de ação - like
+Vitalício: histórias da publicação por tipo de ação - share
+Vitalício: histórias da publicação por tipo de ação - comment
+num_other_cliks     => Consumos únicos de direcionamento para público de publicações vitalício por tipo - other clicks
+num_photo_view      => Consumos únicos de direcionamento para público de publicações vitalício por tipo - photo view
+num_link_clicks     => Consumos únicos de direcionamento para público de publicações vitalício por tipo - link clicks
+num_video_play      => Consumos únicos de direcionamento para público de publicações vitalício por tipo - video play
+Consumos de direcionamento para público correspondente vitalício por tipo - other clicks
+Consumos de direcionamento para público correspondente vitalício por tipo - photo view
+Consumos de direcionamento para público correspondente vitalício por tipo - link clicks
+Consumos de direcionamento para público correspondente vitalício por tipo - video play
+Vitalício: comentários negativos de usuários por tipo - hide_all_clicks
+Vitalício: comentários negativos de usuários por tipo - hide_clicks
+Vitalício: feedback negativo por tipo - hide_all_clicks
+Vitalício: feedback negativo por tipo - hide_clicks
