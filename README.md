@@ -1,21 +1,23 @@
 # facebookAnalize
 
-Algorítimo para analisar alguns dados fornecido pelo facebook
+Algorítimo para analisar alguns dados fornecido pelo facebook em csv
 
-""" Testando a plataforma: 
+""" Ambiente de trabalho 
+
+    PS C:\Users\jorge $> conda activate py37
+    (py37) C:\>
 
     (py37) C:\>jupyter notebook list
            Currently running servers:
-           http://localhost:8888/?token=6031a497d4a65e264ea5874d47f49d2ac27b758dedc4d408 :: C:\Users\jorge.FCN
-           http://localhost:8888/?token=f414b5de973f421c3317aabe88ea75b32bc957ae567918c7 :: C:\Users\jorge.FCN
+           http://localhost:8888/?token=6031a497d4a65e264ea5874d47f49d2ac27b758dedc4d408 :: C:\Users\jorge
 
     (py37) C:\>
 
     # --- instalar dependencias no ambiente virtual que esta sendo utilizado.
 
-    (py37) C:\> pip install jieba
-    (py37) C:\> pip install wordcloud  # https://github.com/amueller/word_cloud
-    (py37) C:\> conda install -c conda-forge wordcloud
+    (py37) C:\> pip install -r requirements.txt
+    (py37) C:\> 
+    (py37) C:\> 
 
     # ---
 
