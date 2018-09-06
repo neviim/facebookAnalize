@@ -29,6 +29,15 @@ Algorítimo para analisar alguns dados fornecido pelo facebook em csv
     (py37) C:\> cd src
     (py37) C:\> python analisar_poste.py
 
+
+
+    # ---
+
+    Se tiver usando vscode, com plugin para jupter instalado este codigo esta preparado para
+    retornar resultados no ambiente do VS. ele atua utilizando uma instancia do Jupter que esteja ativa 
+    bas para isso passar o endereço com o token no VScode.
+
+
     # ---
 
     #%%
