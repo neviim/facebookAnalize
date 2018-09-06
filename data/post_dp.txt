@@ -1,4 +1,4 @@
-id_publicacao                                                                               True
+Número de identificação da publicação                                                                           True
 link_permanente                                                                             True
 status_messagem                                                                             True
 status_type                                                                                 True
@@ -53,21 +53,21 @@ Vitalício: feedback negativo por tipo - hide_clicks                            
 
 # Um De/Para
 
-status_id  			=> id_publicacao
+status_id  			=> Número de identificação da publicação
 link_name 			=> link_permanente
 status_messagem  	=> status_messagem
 status_type			=> Tipo
 					=> Países
 					=> Idiomas
-status_publicado    => status_publicado
-Direcionamento do público
-total_publicacao    => total_publicacao
-Vitalício: alcance orgânico da publicação
-Vitalício: alcance pago da publicação
-Vitalício: total de impressões da publicação
-Vitalício: impressões orgânicas da publicação
-Vitalício: impressões pagas da publicação
-Vitalício: usuários envolvidos
+status_publicado    => Publicado
+					=> Direcionamento do público
+total_publicacao    => Vitalício: alcance total da publicação
+					=> Vitalício: alcance orgânico da publicação
+					=> Vitalício: alcance pago da publicação
+					=> Vitalício: total de impressões da publicação
+					=> Vitalício: impressões orgânicas da publicação
+					=> Vitalício: impressões pagas da publicação
+					=> Vitalício: usuários envolvidos
 num_pub_corres  	=> Vitalício: consumidores de direcionamento do público com correspondência na publicação
 Vitalício: consumos de direcionamento do público com correspondência na publicação
 Vitalício: comentários negativos dos usuários
