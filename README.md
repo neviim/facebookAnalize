@@ -5,6 +5,7 @@ Algorítimo para analisar alguns dados fornecido pelo facebook em csv
 """ Ambiente de trabalho 
 
     Emquanto em desenvolvimento e em beta teste este codigo funcionara na pasta pre-definida:
+
     ~/documents/github/_python_projetos/facebookAnalize"
 
     Posteriormente esta sendo ajustada para uso padrão, tambem exige en caso de windows que o anaconda python esteja instalado, ja que meus anigos resolverão todos usar windows, por motivo tecnico trabalhista, os que ainda resistem e lutão bravamente com o linux sera mais facil, pip install -r resolve tudo.
@@ -30,7 +31,6 @@ Algorítimo para analisar alguns dados fornecido pelo facebook em csv
     (py37) C:\> python analisar_poste.py
 
 
-
     # ---
 
     Se tiver usando vscode, com plugin para jupter instalado este codigo esta preparado para
@@ -52,6 +52,7 @@ Algorítimo para analisar alguns dados fornecido pelo facebook em csv
     referencias de trabalho:
         http://localhost:8888/notebooks/Documents/GitHub/_jupyter_codigo/Scatterplot.ipynb
         http://localhost:8888/notebooks/Documents/GitHub/_python_projetos/screping/referencia/facebook_fanpage_analysis/Facebook_fcn.ipynb
+
 
     Autor: Neviim Jads, ;)
 """
