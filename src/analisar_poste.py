@@ -271,8 +271,8 @@ def main():
 
         # frequencia de postagem
         frequencia = poster.frequencia_postagem(dfreme_filtrado)
-        #print(frequencia)
-        #print()
+        print(frequencia)
+        print()
 
         # publicação por semana
         poste_semana, status = poster.dia_semana(dict(dfreme_filtrado['weekday'].value_counts()))
