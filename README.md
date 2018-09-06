@@ -11,13 +11,16 @@ Algorítimo para analisar alguns dados fornecido pelo facebook em csv
            Currently running servers:
            http://localhost:8888/?token=6031a497d4a65e264ea5874d47f49d2ac27b758dedc4d408 :: C:\Users\jorge
 
+           ctrl+shift+p
+           Jupyter: Enter com a url do local/remoto Jupyter Notebook
+
     (py37) C:\>
 
     # --- instalar dependencias no ambiente virtual que esta sendo utilizado.
 
     (py37) C:\> pip install -r requirements.txt
-    (py37) C:\> 
-    (py37) C:\> 
+    (py37) C:\> cd src
+    (py37) C:\> python analisar_poste.py
 
     # ---
 

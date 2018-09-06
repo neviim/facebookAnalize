@@ -3,9 +3,10 @@
 __autor__ = "neviim jads"
 __version__ = "1.0.0"
 
-# #%%
+#%%
 import sys
 import os
+import time
 import math
 import datetime
 import numpy as np
@@ -73,6 +74,29 @@ class face_poster(object):
 
     def get_arquivo(self):
         return self.path_arquivo_csv
+
+    def trimestre_periodo(self, todos=True, unico=1):
+        """ Trimestre a ser gerado de 1 a 4 ou todos
+        
+            Arguments:
+                todos {[logico]} -- [Verdadeiro = gera todos]
+                unico {[int]}    -- [caso for trimestre unico, o seu numero]
+
+            Retorno:
+                Retorna parametro duplo, sendo eles:
+
+                    tri_start {[Int]} -- [Trimesrte inicial]
+                    trimestre {[Int]} -- [Trimestre final]
+        """
+        if todos:
+            trimestre = 4
+            tri_start = 0
+        else:
+            fun = lambda x: x > 4 and 4 or x
+            trimestre = fun(unico)
+            tri_start = trimestre-1
+            
+        return(tri_start, trimestre)
 
     def hora(self, dhora):
         list_key = range(1,23)
@@ -206,8 +230,8 @@ class face_poster(object):
         if imprime:
             print( nome_trimestre )
             print( dados_poste_semana )
-            print( )
-
+            print( self.itens )
+   
         return
 
 
@@ -217,12 +241,18 @@ def main():
     # defini path e ip do arquivo
     path_proj = os.path.expanduser("~/documents/github/_python_projetos/facebookAnalize")
     arqv_id = "1-tri-facebook.tw"
-    num_trimestres = 4
-    
+
+    tri_unico = 3      # trimestre unico a sera gerado
+    tri_todos = False  # imprime todos os trimestres
+
+    # instancia a classe poster
+    poster = face_poster(arqv_id)
+    tri_start, trimestre = poster.trimestre_periodo(tri_todos, tri_unico) 
+
     # loop de trimestre a ser gerados
-    for n in range(0, num_trimestres):
+    for n in range(tri_start, trimestre):
         arqv_id = str(n+1)+arqv_id[1:]
-        poster = face_poster(arqv_id)
+        #poster = face_poster(arqv_id)
 
         # abre arquivo e renomeia colunas 
         dfreme = poster.ler_csv(path_proj, arqv_id)
@@ -247,8 +277,9 @@ def main():
         # publicação por semana
         poste_semana, status = poster.dia_semana(dict(dfreme_filtrado['weekday'].value_counts()))
         if status:
-           poster.gera_grafico_dia_semana(arqv_id[:-12]+'mestre', poste_semana, True)
-           #pass
+            poster.gera_grafico_dia_semana(arqv_id[:-12]+'mestre', poste_semana, False)
+            print(arqv_id)
+           
 
     return
     
